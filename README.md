@@ -4,14 +4,14 @@ Used for Module 2 of UCB Data Science Bootcamp
 ### Project Overview
 The purpose of this project is to create a VBA script that is capable of automating basic 
 stock analysis by calculating annual aggregate trade volumes and aggregate annual returns for a
-set of stocks and given years. In this set, the dataset includes a selected dozen biotech companies
+set of stocks and given years. The dataset includes a selected dozen biotech companies
 along with company tickers, daily trade volumes, daily opening prices, and daily closing prices. 
 Another purpose of this analysis is to analyze how a refactored code might improve efficiency and
 runtime of the program.
 
 ### Results
 The biotech sector as a whole (based on the included set of tickers) appears to have had a phenomenal
-performance in the year of 2017, with as many as 4 out of 11 analyzed tickers getting annulized returns
+performance in the year of 2017, with as many as 4 out of 11 analyzed tickers getting annualized returns
 greater than 100%. Only one company (TERP) had a negative return of -7%, and only one other company had 
 a return less than 10% (RUN). 
 ![2017 Volumes and Returns](https://raw.githubusercontent.com/Dreski9000/stock-analysis/main/Resources/sa_formatted_2017.png)
@@ -31,7 +31,6 @@ effectively sacrificing a small amount of memory for a huge improvement in runti
 ### Summary
 The only drawback of refactoring code is the time that it takes time, but the benefits are better readability
 and potentially major improvements in runtime execution. I did accidentally introduce a couple of bugs while
-working on refactoring the code; they were typos; this can be taken into consideration while refactoring code,
-but the improvements in runtime execution were like night and day; the refactored code ran almost instantly vs
-the original code took almost half a minute to finish executing.
+working on refactoring the code; they were typos, but took a bit of time to fix; this can be taken into consideration
+while refactoring code,but the improvements in runtime execution were like night and day; the refactored code ran almost instantly vs the original code took almost half a minute to finish executing.
 
